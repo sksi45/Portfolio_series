@@ -1,15 +1,16 @@
 # SHAHIDFLIX — THE DEVOPS SERIES
 
-A cinematic, static portfolio for Shahid Sheik, published with GitHub Pages.
+A cinematic static portfolio for Shahid Sheik, published with GitHub Pages.
 
-## Site features
-- Responsive dark streaming-inspired design and cinematic hero artwork
-- Career timeline, DevOps project summaries, skills and contact links
-- Correct LinkedIn profile link
+## Features
+- Responsive streaming-inspired design
+- Shahid's supplied professional portrait in the homepage hero
+- Career timeline, project highlights, skills and contact section
+- Circular desktop cursor inspired by the original portfolio (disabled for touch and reduced-motion users)
+- Contact and resume-request actions open LinkedIn, avoiding mail-app dependency
 - No backend, database, server or build step required
 
-## Resume
-Use the **Request Resume** link on the website to request the PDF by email. The downloadable portfolio ZIP shared in ChatGPT also contains the ATS DevOps resume PDF.
+## Publishing
+GitHub Actions deploys the contents of this folder to GitHub Pages whenever the site or workflow changes.
 
-## Source
-The original React/Vite inspiration project remains in the repository root. The static Shahidflix site is kept separately in `shahidflix/` and deployed independently by `.github/workflows/pages.yml`.
+The original React/Vite inspiration project remains in the repository root; this standalone static site is kept in `shahidflix/`.
